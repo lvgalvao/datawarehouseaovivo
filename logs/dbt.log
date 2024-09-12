@@ -1,0 +1,28 @@
+[0m21:33:23.779163 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017B3CD1D250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017B3CD1CED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017B3CD1C690>]}
+
+
+============================== 21:33:23.782161 | 2560a610-8621-41a2-9009-d178710bca1a ==============================
+[0m21:33:23.782161 [info ] [MainThread]: Running with dbt=1.8.6
+[0m21:33:23.783162 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Luciano\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init vendas_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m21:33:23.798750 [debug] [MainThread]: Starter project path: C:\Users\Luciano\workspace\lvgalvaofilho\datawarehouseaovivo\.venv\Lib\site-packages\dbt\include\starter_project
+[0m21:33:23.836411 [info ] [MainThread]: 
+Your new dbt project "vendas_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:33:23.836411 [info ] [MainThread]: Setting up your profile.
+[0m21:35:53.509062 [info ] [MainThread]: Profile vendas_dbt written to C:\Users\Luciano\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:35:53.511062 [debug] [MainThread]: Command `dbt init` succeeded at 21:35:53.511062 after 149.79 seconds
+[0m21:35:53.511062 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017B3CAEB890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017B367B10D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017B36AA8110>]}
+[0m21:35:53.512062 [debug] [MainThread]: Flushing usage events
